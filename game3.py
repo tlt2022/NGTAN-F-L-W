@@ -80,7 +80,7 @@ def main():
            print('Huh?')
            
       
-        ans=input("Do you want to play again , yes (y)")
+        ans=input("Do you want to play again? yes (y)")
         if ans=="y":
            player = True
         else:
