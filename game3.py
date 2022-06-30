@@ -15,7 +15,7 @@ import colorama
 def main():
     
     from colorama import Fore,Back,Style
-    colorama.init(autoreset=True) # #auto resets your settings after every output
+    colorama.init(autoreset=True) # auto resets your settings after every output
     print(Fore.WHITE+Back.BLACK+'***********Welcome to Fire,Logs, Water Game**********')
     
     chosen = randint(1,3)
